@@ -10,6 +10,7 @@
 //include other header files with function definitions
 #include "intake.hpp"
 #include "shooter.hpp"
+#include "drive.hpp"
 
 //sylib filters
 extern sylib::MedianFilter colorFilter;
