@@ -28,6 +28,8 @@ extern sylib::MedianFilter distanceFilter;
 
 #define END 1
 #define LIMIT 2
+#define XENCODER 3
+#define YENCODER 4
 
 #define INDEXER 9
 #define FRONTDIST 10 
@@ -58,6 +60,8 @@ extern pros::Distance backDist;
 extern pros::Distance rightDist;
 extern pros::Distance leftDist;
 extern pros::Optical roller;
+extern pros::Rotation xEncoder;
+extern pros::Rotation yEncoder;
 extern pros::IMU imu;
 
 #ifdef __cplusplus
