@@ -28,8 +28,6 @@ extern sylib::MedianFilter distanceFilter;
 
 #define END 1
 #define LIMIT 2
-#define XENCODER 3
-#define YENCODER 4
 
 #define INDEXER 9
 #define FRONTDIST 10 
@@ -38,6 +36,8 @@ extern sylib::MedianFilter distanceFilter;
 #define LEFTDIST 13
 #define ROLLER 14
 #define IMUSENSOR 15 
+#define XENCODER 16
+#define YENCODER 17
 
 //extern motor + sensor declaration
 extern pros::Controller master;
